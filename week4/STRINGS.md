@@ -6,7 +6,6 @@
 stringLength("C++ rocks") => 9
 ```
 
-[Решение](Task1.cpp)
 
 ## Задача 2
 Напишете функция с прототип `size_t wordsCount(const char*)`, която намира броят думи от които е съставен подаденият низ
@@ -15,8 +14,6 @@ stringLength("C++ rocks") => 9
 ``` C++
 wordsCount("Das auto") => 2
 ```
-
-[Решение](Task2.cpp)
 
 ## Задача 3
 Напишете функция с прототип `bool equalsIgnoreCase(const char*, const char*)`, която проверява дали 
@@ -27,7 +24,6 @@ wordsCount("Das auto") => 2
 equalsIgnoreCase("BeAtLes", "beatles") => true
 ```
 
-[Решение](Task3.cpp)
 
 ## Задача 4
 Напишете функция с прототип `void evaluate(const char*)`, която намира и изпечатва
@@ -41,7 +37,6 @@ evaluate("3 Doors Down")
          Брой цифри: 1
 ```
 
-[Решение](Task4.cpp)
 
 ## Задача 5
 Напишете функция с прототип bool `swapcase(char*)`, която променя всяка голяма
@@ -52,7 +47,6 @@ evaluate("3 Doors Down")
 swapcase("Yellow Submarine") => yELLOW sUBMARINE
 ```
 
-[Решение](Task5.cpp)
 
 ## Задача 6
 Напишете функция с прототип `void findWords(const char*)`, която намира
@@ -78,8 +72,6 @@ findWords("yesterday love was such an easy game to play")
 replace("We_love_C  ", ' ', '+') => "We_love_C++"
 ```
 
-[Решение](Task7.cpp)
-
 ## Задача 8
  Напишете функция с прототип `void truncate(char* src, int n)`, която скъсява
 подадения низ до низ с дължина n. Ако низът вече е по-къс от n, той
@@ -90,7 +82,6 @@ replace("We_love_C  ", ' ', '+') => "We_love_C++"
 truncate("The Dark Knight Rises", 15 ) => The Dark Knight
 ```
 
-[Решение](Task8.cpp)
 
 ## Задача 9
 Напишете функция с прототип `void deleteChar(char* a, char c)`, която изтрива
@@ -102,7 +93,6 @@ deleteChar("the* qu*ick* bro*wn ***fox **jumped o**ver **the lazy *d*og", '*')
       => "the quick brown fox jumped over the lazy dog"
 ```
 
-[Решение](Task9.cpp)
 
 ## Задача 10
 Напишете функция с прототип `bool startsWith(const char* src, char* start)`, която връща
@@ -113,4 +103,3 @@ deleteChar("the* qu*ick* bro*wn ***fox **jumped o**ver **the lazy *d*og", '*')
 startsWith("Fear of the Dark", "Fea") => true
 ```
 
-[Решение](Task10.cpp)
