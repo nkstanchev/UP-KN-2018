@@ -1,0 +1,81 @@
+#include <iostream>
+#include<fstream>
+enum piece { PAWN,KNIGHT};
+using namespace std;
+// dynamic memory
+void func1() {
+	int arr[100];
+	int n;
+	cin >> n;
+	int* arr2 = new int[n];
+	delete[] arr2;
+	arr2 = new int[10];
+}
+
+int* func() {
+	int* b = new int[5];
+	for (int i = 0; i < 5; i++)
+	{
+		b[i] = i;
+	}
+	return b;
+}
+//
+	struct Triangle
+	{
+		int a, b, c;
+		Triangle()
+		{
+			a = b = c = 0;
+		}
+		Triangle(int _a, int _b, int _c)
+		{
+			a = _a;
+			b = _b;
+			c = _c;
+		}
+		Triangle(const Triangle& other)
+		{
+			a = other.a;
+			b = other.b;
+			c = other.c;
+		}
+	};
+	struct Point
+	{
+		char name[100];
+		double x, y;
+	};
+
+int main()
+{	
+	/*int* arr = new int[5];
+	arr = func();*/
+
+
+	char str[100];
+	std::ifstream stream("wtf.txt");
+	Point p1, p2, p3, p4;
+	stream >> p1.name;
+	stream >> p1.x;
+	stream >> p1.y;
+
+	stream >> p2.name;
+	
+	stream >> p2.x;
+	stream >> p2.y;
+
+	std::cout << p1.name << " (" << p1.x << "," << p1.y << ")" << std::endl;
+	std::cout << p2.name << " (" << p2.x << "," << p2.y << ")" << std::endl;
+
+	cin >> p3.name;
+	p3.x = 700;
+	p3.y = 125;
+
+	std::ofstream write("newFile.txt");
+	write << p3.name << " ";
+	write << p3.x << " ";
+	write << p3.y << " ";
+
+	return 0;
+}
